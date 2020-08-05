@@ -12,8 +12,10 @@ import '@/utils/ax.js' // 本质，执行该文件的内容
 // 引入elementui组件库
 import '@/utils/element.js' // 本质：在该处执行element.js代码
 
-Vue.config.productionTip = false
+import plugin from '@/utils/plugin';
 
+Vue.config.productionTip = false
+Vue.use(plugin);
 new Vue({
   router,
   render: h => h(App)

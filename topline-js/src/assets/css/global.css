@@ -1,0 +1,6 @@
+/*给元素做css样式初始化操作*/
+html,body,#app{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

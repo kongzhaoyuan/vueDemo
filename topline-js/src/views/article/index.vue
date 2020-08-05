@@ -1,6 +1,7 @@
 <template>
   <div>
     <!--卡片区-->
+    <div></div>
     <el-card class="box-card">
       <!--命名插槽，头部内容设置-->
       <div slot="header" class="clearfix">
